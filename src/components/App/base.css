@@ -1,0 +1,21 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
+
+
+:root {
+    --purple: #9A8EBC;
+    --red: #C51B29;
+    --underline: #8A95A5;
+    --header-color: #090C08;
+    --text-color:#4F524E;
+
+    --header-font: 'Raleway', sans-serif;
+    --text-font: 'Lato', sans-serif;
+}
+
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: var(--text-font);
+}
