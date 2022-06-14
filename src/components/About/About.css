@@ -1,0 +1,94 @@
+#About{
+    margin: 0 0 2rem 0;
+    height: 100vh;
+}
+
+.about-statement-mobile{
+    font-family: var(--header-font);
+    color: var(--header-color);
+    font-weight: 200;
+    font-size: clamp(24px, 3.8vw, 36px);
+    width: fit-content;
+    margin: 0 auto 32px auto;
+}
+.about-statement-desktop{
+    display: none;
+    font-size: 36px;
+}
+.about-img-wrapper{
+    width: fit-content;
+    height: fit-content;
+    margin: 0 auto 16px auto;
+    align-self: end;
+}
+
+.about-img{
+    width: clamp(250px, 32vw, 350px);
+}
+
+.about-skills-wrapper{
+    margin: 0 auto 16px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.about-skills-list{
+    margin: 0 auto;
+    text-align: center;
+    font-size: 15px;
+    color: var(--text-color);
+    width: clamp(300px, 50vw, 600px);
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(83px, 1fr));
+}
+
+.about-skills-list p{
+    margin: 0 5px 5px 5px;
+    padding: 0;
+    min-width: 83px;
+    /* border: solid 2px green; */
+}
+.about-underline{
+    width: clamp(300px, 55vw, 600px);
+    height:2px;
+    background: var(--underline);
+    margin: 0 auto 16px auto;
+}
+
+.about-paragraph{
+    width: clamp(275px, 55vw, 600px);
+    text-align: justify;
+    color: var(--text-color);
+    margin: auto;
+}
+
+/* About mediaQueries */
+
+@media only screen and (min-width: 980px) {
+    #About{
+        padding: 0 3rem;
+    }
+    .about-statement-mobile{
+        display: none;
+    }
+
+    .about-statement-desktop{
+        display: revert;
+        font-family: var(--header-font);
+        color: var(--header-color);
+        font-weight: 200;
+        width: fit-content;
+        margin: 0 auto 100px auto;
+    }
+    .about-wrapper{
+        margin: auto;
+        max-width: 1100px;
+        display: flex;
+        flex-direction: row-reverse;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .about-img-wrapper{
+        margin: 0;
+    }
+    
+}
