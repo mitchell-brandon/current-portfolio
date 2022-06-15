@@ -1,0 +1,46 @@
+    [
+        {
+            "id": "1",
+            "type": "Professional",
+            "name":"Bright Spaces",
+            "link": null,
+            "thumbnail": "../assets/bright_spaces/landing.png",
+            "images":{
+                "image1": "testing1",
+                "image2": "testing2"
+            }
+        },
+        {
+            "id": "2",
+            "type": "Professional",
+            "name":"Fat Ass Food Tour",
+            "link": null,
+            "thumbnail": "../assets/fat_food/landing.png",
+            "images":{
+                "image1": "testing1",
+                "image2": "testing2"
+            }
+        },
+        {
+            "id": "3",
+            "type": "Personal",
+            "name":"Solarsystem",
+            "link": "https://solar-system-react.herokuapp.com/",
+            "thumbnail": "../assets/solarsystem/masses.png",
+            "images":{
+                "image1": "testing1",
+                "image2": "testing2"
+            }
+        },
+        {
+            "id": "4",
+            "type": "Personal",
+            "name":"SasqWatch",
+            "link": "https://sasq-watch.herokuapp.com/",
+            "thumbnail": "../assets/sasq/landing.png",
+            "images":{
+                "image1": "testing1",
+                "image2": "testing2"
+            }
+        }
+    ]
