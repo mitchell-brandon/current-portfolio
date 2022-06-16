@@ -1,5 +1,10 @@
 #About{
-    margin: 0 0 2rem 0;
+    margin: 0;
+    padding: 2rem 0;
+}
+.about-wrapper{
+    margin: 0 auto;
+    
 }
 
 .about-statement-mobile{
@@ -63,10 +68,9 @@
 
 @media only screen and (min-width: 980px) {
     #About{
-        padding: 0 3rem;
+        padding: 8rem 3rem;
     }
     .about-wrapper{
-        margin: auto;
         max-width: 1100px;
         display: flex;
         flex-direction: row-reverse;

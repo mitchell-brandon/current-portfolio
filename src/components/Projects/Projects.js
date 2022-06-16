@@ -13,6 +13,7 @@ function Projects() {
       <div className="underline-select-wrapper">
         <label className="projects-label" for="prjects">Sort:
           <select className="projects-select" id="sort" name="sort">
+          <option value="All">All</option>
             <option value="professional">Professional</option>
             <option value="personal">Personal</option>
             <option value="knacks">Knick Knacks</option>  
@@ -29,7 +30,7 @@ function Projects() {
               <div className="tile-thumbnail-wrapper"> 
                 <img className="tile-thumbnail" src={project.thumbnail} alt={project.name}/>
                 <div className="project-link-container">
-                  <p className="project-link-wrapper"> <a className="project-link" href={project.link}>{project.link}</a> </p>
+                  <p className="project-link-wrapper"> <a className="project-link" href={project.link}>{project.name}</a> </p>
                   <p className="project-type">{project.type}</p>
                 </div>
               </div>

@@ -1,5 +1,5 @@
 #Contact{
-    height: 100vh;
+    padding: 2rem 0;
 }
 
 .contact-statement{
@@ -7,17 +7,14 @@
     color: var(--header-color);
     font-weight: 200;
     width: fit-content;
-    margin: 0 auto;
+    margin: 0 auto 2rem auto;
     font-size: clamp(24px, 3.8vw, 36px);
 }
 
 .contact-form{
-    width: clamp(300px, 75vw, 500px);
+    width: clamp(300px, 75vw, 700px);
     margin: auto;
 }
-/* .contact-form-content{
-    border: solid 2px blue;
-} */
 
 .contact-input-wrapper{
     display: flex;
@@ -63,5 +60,12 @@
     }
     .email-wrapper{
         margin-left: 5px;
+    }
+    #Contact{
+        padding: 4rem 0;
+    }
+
+    .contact-statement{
+        margin: 0 auto 4rem auto;
     }
 }

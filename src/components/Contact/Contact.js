@@ -4,7 +4,7 @@ function Contact(){
 
   return(
     <div id="Contact">
-      <h1 className="contact-statement"> Want to hire me? </h1>
+      <h1 className="contact-statement"> Wanna team up? </h1>
 
       <form className="contact-form">
         <div className="contact-form-content">
@@ -26,7 +26,7 @@ function Contact(){
 
         
 
-        <button className="contact-submit-button">Submit</button>
+        <button className="contact-submit-button">Send</button>
       </form>
 
     </div>

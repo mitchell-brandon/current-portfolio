@@ -42,5 +42,16 @@
                 "image1": "testing1",
                 "image2": "testing2"
             }
+        },
+        {
+            "id": "5",
+            "type": "KnickKnack",
+            "name":"Pokedex",
+            "link": "https://codesandbox.io/s/pokedexsnippet-pn9h44",
+            "thumbnail": "../assets/pokedex/home.png",
+            "images":{
+                "image1": "testing1",
+                "image2": "testing2"
+            }
         }
     ]
