@@ -1,0 +1,14 @@
+#Footer{
+    border: solid 2px red;
+}
+.footer-icon-container{
+    border: solid 2px blue;
+    width: fit-content;
+    margin: 2rem auto;
+}
+.footer-icon{
+    border: solid 2px green;
+    margin: 0 10px;
+    height: 40px;
+    width: 40px;
+}
