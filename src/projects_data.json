@@ -1,7 +1,7 @@
     [
         {
             "id": "1",
-            "type": "Professional",
+            "type": "professional",
             "name":"Bright Spaces",
             "link": null,
             "thumbnail": "../assets/bright_spaces/landing.png",
@@ -12,7 +12,7 @@
         },
         {
             "id": "2",
-            "type": "Professional",
+            "type": "professional",
             "name":"Fat Ass Food Tour",
             "link": null,
             "thumbnail": "../assets/fat_food/landing.png",
@@ -23,7 +23,7 @@
         },
         {
             "id": "3",
-            "type": "Personal",
+            "type": "personal",
             "name":"Solarsystem",
             "link": "https://solar-system-react.herokuapp.com/",
             "thumbnail": "../assets/solarsystem/masses.png",
@@ -34,7 +34,7 @@
         },
         {
             "id": "4",
-            "type": "Personal",
+            "type": "personal",
             "name":"SasqWatch",
             "link": "https://sasq-watch.herokuapp.com/",
             "thumbnail": "../assets/sasq/landing.png",
@@ -45,7 +45,7 @@
         },
         {
             "id": "5",
-            "type": "KnickKnack",
+            "type": "knick-knacks",
             "name":"Pokedex",
             "link": "https://codesandbox.io/s/pokedexsnippet-pn9h44",
             "thumbnail": "../assets/pokedex/home.png",
