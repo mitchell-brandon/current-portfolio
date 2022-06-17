@@ -73,13 +73,15 @@
 .project-link-container{
     padding: 0;
     display: flex;
-    justify-content: space-between !important;
 }
 .project-link-wrapper{
-    /* width: fit-content; */
     margin: 0 auto;
     display: block;
     width: 100%;
+}
+.project-type{
+    width: 100%;
+    text-align: right;
 }
 .project-link{
     margin: 0;

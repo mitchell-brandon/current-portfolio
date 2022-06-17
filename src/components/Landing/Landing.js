@@ -1,5 +1,7 @@
 import "./Landing.css"
-function Landing(){
+function Landing(props){
+  
+
 
   return(
     <div id="Landing">
@@ -13,11 +15,11 @@ function Landing(){
         </div>
       </div>
 
-      <div className="landing-nav-wrapper">
+      <div className={`landing-nav-wrapper ${props.landingVisible? "": "hidden"}`}>
         <ul className="landing-nav-bar">
-          <li> <a className="landing-link"href=""> About </a> </li>
-          <li> <a className="landing-link" href=""> Projects </a> </li>
-          <li> <a className="landing-link" href=""> Contact </a> </li>
+          <li> <a className="landing-link"href="#About"> About </a> </li>
+          <li> <a className="landing-link" href="#Projects"> Projects </a> </li>
+          <li> <a className="landing-link" href="#Contact"> Contact </a> </li>
         </ul>
       </div>
     </div>

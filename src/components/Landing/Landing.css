@@ -43,10 +43,16 @@
 
 /* Landing Navigation */
 
+.hidden {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s 1s, opacity 1s linear;
+  }
 .landing-nav-wrapper{
     position: absolute;
     bottom: 3rem;
     width: 100%;
+    transition: 1s;
 }
 .landing-nav-bar{
     list-style: none;

@@ -11,8 +11,8 @@ function Footer(){
     return(
         <div id="Footer">
             <div className="footer-icon-container">
-                <img className="footer-icon" src={linkedin_icon} alt="linkedin icon"/>
-                <img className="footer-icon" src={github_icon} alt="github icon"/>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/mitchellbrandonn/"><img className="footer-icon" src={linkedin_icon} alt="linkedin icon"/></a>
+                <a target="_blank" rel="noopener noreferrer" href="https://github.com/mitchell-brandon"><img className="footer-icon" src={github_icon} alt="github icon"/></a>
             </div>
         </div>
     )
