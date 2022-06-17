@@ -5,10 +5,20 @@
             "name":"Bright Spaces",
             "link": null,
             "thumbnail": "../assets/bright_spaces/landing.png",
-            "images":{
-                "image1": "testing1",
-                "image2": "testing2"
-            }
+            "images":[
+                "../assets/bright_spaces/landing.png",
+                "./assets/bright_spaces/about.png",
+                "./assets/bright_spaces/private_service.png",
+                "./assets/bright_spaces/commercial_service.png",
+                "./assets/bright_spaces/contact.png",
+                "./assets/bright_spaces/faq.png",
+                "./assets/bright_spaces/overview.png",
+                "./assets/bright_spaces/residential_overview.png",
+                "./assets/bright_spaces/commercial_overview.png",
+                "./assets/bright_spaces/res_book_overview.png",
+                "./assets/bright_spaces/faq_overview.png",
+                "./assets/bright_spaces/reciept_overview.png"
+            ]
         },
         {
             "id": "2",
@@ -16,10 +26,10 @@
             "name":"Fat Ass Food Tour",
             "link": null,
             "thumbnail": "../assets/fat_food/landing.png",
-            "images":{
-                "image1": "testing1",
-                "image2": "testing2"
-            }
+            "images":[
+                "testing1",
+                "testing2"
+            ]
         },
         {
             "id": "3",
@@ -27,10 +37,10 @@
             "name":"Solarsystem",
             "link": "https://solar-system-react.herokuapp.com/",
             "thumbnail": "../assets/solarsystem/masses.png",
-            "images":{
-                "image1": "testing1",
-                "image2": "testing2"
-            }
+            "images":[
+                "testing1",
+                "testing2"
+            ]
         },
         {
             "id": "4",
@@ -38,10 +48,10 @@
             "name":"SasqWatch",
             "link": "https://sasq-watch.herokuapp.com/",
             "thumbnail": "../assets/sasq/landing.png",
-            "images":{
-                "image1": "testing1",
-                "image2": "testing2"
-            }
+            "images":[
+                "testing1",
+                "testing2"
+            ]
         },
         {
             "id": "5",
@@ -49,9 +59,9 @@
             "name":"Pokedex",
             "link": "https://codesandbox.io/s/pokedexsnippet-pn9h44",
             "thumbnail": "../assets/pokedex/home.png",
-            "images":{
-                "image1": "testing1",
-                "image2": "testing2"
-            }
+            "images":[
+                "testing1",
+                "testing2"
+            ]
         }
     ]

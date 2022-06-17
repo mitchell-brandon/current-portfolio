@@ -1,14 +1,22 @@
 import "./Projects.css";
 import Tiles from "./Tiles.js";
+import TileOverlay from "./TileOverlay";
 import React, { useState } from 'react';
 
 function Projects() {
  const[selectedValue, setSelectedValue] = useState("all")
+ const[tileClicked, setTileClicked] = useState(false)
+ const[tileId, setTileId] = useState(0)
 
-function handleChange(ev){
-  let optionValue = ev.target.value
-  setSelectedValue(optionValue)
-}
+  function handleClick(ev){
+    setTileClicked(!tileClicked);
+    setTileId(ev.target.id)
+  }
+
+  function handleChange(ev){
+    let optionValue = ev.target.value
+    setSelectedValue(optionValue)
+  }
 
   return(
     <div id="Projects">
@@ -28,8 +36,15 @@ function handleChange(ev){
         <div className="projects-underline"></div>
       </div>
 
-      <Tiles selectedValue={selectedValue}/>
-
+      <Tiles 
+        handleClick={handleClick}
+        selectedValue={selectedValue}
+      />
+      <TileOverlay 
+        tileClicked={tileClicked} 
+        handleClick={handleClick}
+        tileId={tileId}
+      />
     </div>
   )
 };

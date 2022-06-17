@@ -1,0 +1,49 @@
+.display-none{
+    display: none;
+}
+#TileOverlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(255, 255, 255, 0.95);
+    border: 0.5px solid #4F524E;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+/* #TileOverlay{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+    width: 80%;
+    height: 80%;
+    background: rgba(255, 255, 255, 0.95);
+    border: 0.5px solid #4F524E;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+} */
+
+.overlay-x-wrapper{
+    border: solid 1px red;
+    text-align: right;
+}
+.overlay-x{
+    margin: 25px 30px 0 0;
+    font-family: var(--header-font);
+    color: var(--header-color);
+    font-weight: 200px;
+    font-size: 60px;
+}
+.carousel-ul{
+    list-style: none;
+    padding: 0;
+}
+.carousel-ul li{
+    width: fit-content;
+    margin: auto;
+}
+.slide-img{
+    width: 300px;
+    margin: auto;
+}

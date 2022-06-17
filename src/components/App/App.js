@@ -11,16 +11,12 @@ function App() {
   const landingPage = useRef();
   
   const scrollHandler = () => {
-    console.log(landingPage.current.getBoundingClientRect());
     let getBound = landingPage.current.getBoundingClientRect();
     if (getBound.top >= -300) {
-      console.log('landing is visible');
       setLandingVisible(true)
     } else {
-      console.log('landing is not visible');
       setLandingVisible(false)
     }
-    console.log(landingVisible);
   };
   
 
