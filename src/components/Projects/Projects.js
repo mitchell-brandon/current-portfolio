@@ -1,6 +1,6 @@
 import "./Projects.css";
-import Tiles from "./Tiles.js";
-import TileOverlay from "./TileOverlay";
+import Tiles from "../Tiles/Tiles.js";
+import TileOverlay from "../TileOverlay/TileOverlay";
 import React, { useState } from 'react';
 
 function Projects() {

@@ -1,0 +1,70 @@
+.project-tiles-container{
+    max-width: 1100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(300px, 1fr));
+    
+}
+.project-tile{
+    width: fit-content;
+    margin: 0 auto 1rem auto;
+}
+
+
+.tile-title{
+    font-family: var(--header-font);
+    font-weight: 200;
+    font-size: 24px;
+    width: fit-content;
+    margin: 0 auto 10px auto;
+}
+
+.tile-thumbnail-wrapper{
+    width: fit-content;
+    margin: 0 auto;
+}
+.tile-thumbnail{
+    width: 300px;
+    margin: auto;
+    transition: all .2s ease-in-out;
+}
+.tile-thumbnail:hover{
+    cursor:pointer;
+    transform: scale(1.05);
+}
+.project-link-container{
+    padding: 0;
+    display: flex;
+}
+.project-link-wrapper{
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+}
+.project-type{
+    width: 100%;
+    text-align: right;
+}
+.project-link{
+    margin: 0;
+    font-size: 16px;
+    font-weight: 200;
+    text-decoration: underline;
+    text-decoration-color: var(--text-color);
+    text-decoration-thickness: .5px;
+    color: var(--text-color);
+}
+
+.project-type {
+    display: block;
+    font-size: 16px;
+    font-weight: 200;
+    margin: 0;
+}
+
+@media only screen and (min-width: 500px) {
+    .tile-title{
+        font-size: 28px;
+    }
+
+}

@@ -16,9 +16,9 @@
                 "./assets/bright_spaces/residential_overview.png",
                 "./assets/bright_spaces/commercial_overview.png",
                 "./assets/bright_spaces/res_book_overview.png",
-                "./assets/bright_spaces/faq_overview.png",
                 "./assets/bright_spaces/reciept_overview.png"
-            ]
+            ],
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vel pretium leo. Donec blandit orci ut venenatis bibendum. Aenean tincidunt mauris sit amet consequat laoreet. Nam id elit quis nunc lacinia facilisis. Aenean blandit elit nec augue gravida, sodales sollicitudin risus pharetra. Mauris vestibulum iaculis dictum.Duis mollis orci nec est ornare, faucibus condimentum nisi imperdiet.Aenean magna eros, posuere et leo vitae, hendrerit volutpat augue."
         },
         {
             "id": "2",
@@ -27,9 +27,15 @@
             "link": null,
             "thumbnail": "../assets/fat_food/landing.png",
             "images":[
-                "testing1",
-                "testing2"
-            ]
+                "./assets/fat_food/landing.png",
+                "./assets/fat_food/about.png",
+                "./assets/fat_food/events_menu.png",
+                "./assets/fat_food/events.png",
+                "./assets/fat_food/carousel.png",
+                "./assets/fat_food/RSVP.png",
+                "./assets/fat_food/menu.png"
+            ],
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vel pretium leo. Donec blandit orci ut venenatis bibendum. Aenean tincidunt mauris sit amet consequat laoreet. Nam id elit quis nunc lacinia facilisis. Aenean blandit elit nec augue gravida, sodales sollicitudin risus pharetra. Mauris vestibulum iaculis dictum.Duis mollis orci nec est ornare, faucibus condimentum nisi imperdiet.Aenean magna eros, posuere et leo vitae, hendrerit volutpat augue."
         },
         {
             "id": "3",
@@ -40,7 +46,8 @@
             "images":[
                 "testing1",
                 "testing2"
-            ]
+            ],
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vel pretium leo. Donec blandit orci ut venenatis bibendum. Aenean tincidunt mauris sit amet consequat laoreet. Nam id elit quis nunc lacinia facilisis. Aenean blandit elit nec augue gravida, sodales sollicitudin risus pharetra. Mauris vestibulum iaculis dictum.Duis mollis orci nec est ornare, faucibus condimentum nisi imperdiet.Aenean magna eros, posuere et leo vitae, hendrerit volutpat augue."
         },
         {
             "id": "4",
@@ -51,7 +58,8 @@
             "images":[
                 "testing1",
                 "testing2"
-            ]
+            ],
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vel pretium leo. Donec blandit orci ut venenatis bibendum. Aenean tincidunt mauris sit amet consequat laoreet. Nam id elit quis nunc lacinia facilisis. Aenean blandit elit nec augue gravida, sodales sollicitudin risus pharetra. Mauris vestibulum iaculis dictum.Duis mollis orci nec est ornare, faucibus condimentum nisi imperdiet.Aenean magna eros, posuere et leo vitae, hendrerit volutpat augue."
         },
         {
             "id": "5",
@@ -62,6 +70,7 @@
             "images":[
                 "testing1",
                 "testing2"
-            ]
+            ],
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vel pretium leo. Donec blandit orci ut venenatis bibendum. Aenean tincidunt mauris sit amet consequat laoreet. Nam id elit quis nunc lacinia facilisis. Aenean blandit elit nec augue gravida, sodales sollicitudin risus pharetra. Mauris vestibulum iaculis dictum.Duis mollis orci nec est ornare, faucibus condimentum nisi imperdiet.Aenean magna eros, posuere et leo vitae, hendrerit volutpat augue."
         }
     ]

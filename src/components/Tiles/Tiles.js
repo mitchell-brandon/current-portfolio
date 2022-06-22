@@ -1,4 +1,4 @@
-import "./Projects.css";
+import "./Tiles.css";
 import React, { useState } from 'react';
 import projectsJSON from "../../projects_data.json";
 
@@ -11,16 +11,16 @@ function Tiles(props){
     return(
         <div className="project-tiles-container">
         {
-            pJSON.filter(item =>{
-                let returnItem;
-                if(selectedValue === "all"){
-                   returnItem = pJSON;
-                } else if(selectedValue === item.type){
-                    returnItem = item
-                }
-                return returnItem
-            })
-            .map(project =>
+          pJSON.filter(item =>{
+            let returnItem;
+            if(selectedValue === "all"){
+                returnItem = pJSON;
+            } else if(selectedValue === item.type){
+                returnItem = item
+            }
+            return returnItem
+          })
+          .map(project =>
             <div className="project-tile" key={project.id}>
               <h1 className="tile-title"> {project.name}</h1>
               <div className="tile-thumbnail-wrapper"> 

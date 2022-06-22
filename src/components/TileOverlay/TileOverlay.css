@@ -26,7 +26,8 @@
 
 .overlay-x-wrapper{
     border: solid 1px red;
-    text-align: right;
+    display: flex;
+    justify-content: flex-end;
 }
 .overlay-x{
     margin: 25px 30px 0 0;
@@ -34,16 +35,8 @@
     color: var(--header-color);
     font-weight: 200px;
     font-size: 60px;
+    cursor: pointer;
+    border: solid 2px blue;
+    
 }
-.carousel-ul{
-    list-style: none;
-    padding: 0;
-}
-.carousel-ul li{
-    width: fit-content;
-    margin: auto;
-}
-.slide-img{
-    width: 300px;
-    margin: auto;
-}
+
