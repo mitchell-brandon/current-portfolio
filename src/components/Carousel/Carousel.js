@@ -6,7 +6,7 @@ import "./Carousel.css";
 
 
 function Carousel(props){
-  const [current, setCurrent] = useState(0); //lifted state for Carousel
+  const [current, setCurrent] = useState(0);
 
 
   let length;
@@ -14,26 +14,26 @@ function Carousel(props){
     length = index;
   }
 
-  function handleClick(ev){
-    const eventTarget = ev.target.id
-    if( eventTarget === "next"){
-      setCurrent(current === length - 1 ? 0 : current + 1);
-    } else {
-      setCurrent(current === 0 ? length - 1: current - 1);
-    }
+  function next(){
+    setCurrent(current === length - 1 ? 0 : current + 1);
+  }
+
+  function prev(){
+    setCurrent(current === 0 ? length - 1: current - 1);
   }
   
   useEffect(()=>{
     setCurrent(0)
   },[props.tileClicked])
+
   return(
     <div className="carousel">
 
-      <button id="previous" className="carousel-button prev" onClick={handleClick}>
-        <FontAwesomeIcon icon={faCaretLeft} />
+      <button id="previous" className="carousel-button prev" onClick={prev}>
+        <FontAwesomeIcon onClick={prev} className="left-arrow arrow" icon={faCaretLeft}/>
       </button>
-      <button id="next" className="carousel-button next" onClick={handleClick}>
-        <FontAwesomeIcon icon={faCaretRight} />
+      <button id="nex" className="carousel-button next" onClick={next}>
+        <FontAwesomeIcon id="next" onClick={next} className="right-arrow arrow" icon={faCaretRight}/>
       </button>
 
       <ul className="carousel-ul">

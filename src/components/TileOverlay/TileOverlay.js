@@ -10,7 +10,6 @@ function TileOverlay(props){
   return(
     <div id="TileOverlay" className={`${props.tileClicked? "": "display-none"}`}>
       <div className="overlay-x-wrapper">
-        {/* <p className="overlay-x" onClick={props.handleClick}> </p> */}
         <FontAwesomeIcon className="overlay-x" onClick={props.handleClick} icon={faXmark} />
       </div>
 
@@ -31,15 +30,15 @@ function TileOverlay(props){
         .map( (project, index) => {
           return(
             <div key={index}>
-              <p>
+              <p className="tileoverlay-description">
                 {project.description}
               </p>
 
-              <div className="">
-                <p className="">
-                  <a className="" target="_blank" rel="noopener noreferrer" href={project.link}>{project.link? project.name: ""}</a>
+              <div className="tileoverlay-links-container">
+                <p className="tileoverlay-link-wrapper">
+                  <a className="tileoverlay-link" target="_blank" rel="noopener noreferrer" href={project.link}>{project.link? project.name: ""}</a>
                 </p>
-                <p className="">{project.type}</p>
+                <p className="tileoverlay-project-type">{project.type}</p>
               </div>
             </div>
           )

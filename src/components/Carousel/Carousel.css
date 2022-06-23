@@ -1,7 +1,7 @@
 .carousel{
     position: relative;
-    width: fit-content;
-    height: 180px;
+    width: clamp(300px, 75vw, 700px);
+    height: initial;
     margin: 0 auto;
     padding: 0;
     justify-content: center;
@@ -13,11 +13,11 @@
 .next{
     right: -1rem;
 }
+
 .carousel-button {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background: transparent;
     border: none;
     font-size: 48px;
     font-family: var(--header-font);
@@ -28,6 +28,8 @@
     height: fit-content;
     cursor: pointer;
 }
+
+
 .carousel-ul{
     list-style: none;
     padding: 0;
@@ -41,12 +43,27 @@
 }
 .active-slide{
     opacity: 1;
-    transition-duration: 1s;
-    transform: scale(1);
+    transition-duration: 1s ease;
   }
 .slide-img{
-    width: 300px;
+    width: clamp(300px, 75vw, 700px);
     margin: 0 auto;
     padding: 0;
     border: 0.5px solid #4F524E;
+}
+
+@media only screen and (min-width: 500px) {
+    .carousel-button{
+        color: var(--text-color);
+        background: transparent;
+    }
+    .carousel-button:hover{
+        color: var(--header-color);
+    }
+    .prev{
+        left: -2.5rem;
+    }
+    .next{
+        right: -2.5rem;
+    }
 }
