@@ -33,20 +33,18 @@ function About(){
           </div>
           <div className="about-underline"> </div>
           <p className="about-paragraph">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed faucibus condimentum 
-            ante ut lobortis. Pellentesque pellentesque pharetra nulla, eu ultrices justo 
-            consectetur vel. Aliquam in nunc ut urna gravida hendrerit quis et dolor. 
-            Nullam ut metus mattis, fringilla tortor at, pellentesque nibh. Etiam interdum 
-            id eros id lobortis. Morbi eu felis fringilla, fringilla nisi ac, laoreet erat.
-            Mauris volutpat neque ac semper ultricies. Fusce ac feugiat nulla. Vivamus urna dui, 
-            feugiat eget nisi et, gravida rhoncus magna. Praesent pellentesque lacinia leo, 
-            ut sagittis ex commodo sed. Aliquam lacinia, mauris at dictum cursus, 
-            odio quam pretium urna, non gravida ex ipsum a mauris. Aliquam in felis sit 
-            amet quam tincidunt maximus ac ac lacus. Nam ipsum magna, tincidunt vel nulla 
-            nec, finibus interdum turpis. Duis lobortis nisi elit, nec bibendum ante molestie quis.
-            Integer iaculis, ipsum quis maximus tristique, ante nisl dignissim velit, eget dignissim 
-            lacus nisi quis eros. Nulla euismod enim nec molestie lacinia.
-          </p>
+            My name is Mitch, and I’m a full stack web developer. I have over three 
+            years of experience in designing products and building applications. I love 
+            what I do! I’m an incredibly resilient individual with a wanton amount of 
+            discipline and passion. I have a genuine sense of empathy, encouragement, 
+            and inclusivity, and in most of my previous lines of work I’ve often fulfilled 
+            roles in management or leadership. When I’m not programming or designing 
+            the next project I’m probably fishing, camping, or learning new technologies. 
+            I’m dedicated to providing clean code, beautiful designs, and excellent communication. 
+            <br></br>
+            <br></br>
+            Whether you need a freelancer or a full time engineer, I’m the one for the job!
+            </p>
         </div>
       </div>
     </div>

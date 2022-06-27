@@ -4,6 +4,7 @@ import About from "../About/About.js";
 import Projects from "../Projects/Projects.js";
 import Contact from "../Contact/Contact.js";
 import Footer from "../Footer/Footer.js";
+import TileOverlay from "../TileOverlay/TileOverlay";
 import React, { useRef, useState, useEffect} from 'react'
 
 function App() {
@@ -36,6 +37,7 @@ function App() {
       <Projects/>
       <Contact/>
       <Footer/>
+      <TileOverlay/>
     </div>
   );
 }

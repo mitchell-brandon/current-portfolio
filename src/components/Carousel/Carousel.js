@@ -1,17 +1,21 @@
 import projectsJSON from "../../projects_data.json";
 import React, { useEffect, useState} from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCaretLeft, faCaretRight } from '@fortawesome/free-solid-svg-icons';
+import { faCaretLeft, faCaretRight, faFilter } from '@fortawesome/free-solid-svg-icons';
 import "./Carousel.css";
 
 
 function Carousel(props){
   const [current, setCurrent] = useState(0);
+  const [imageArray, setImageArray] = useState([]);
+  let length = imageArray.length;
 
-
-  let length;
-  function testFunction(index){
-    length = index;
+  function getImageArray(){
+    for(let item of projectsJSON){
+      if(props.tileId === item.id){
+        setImageArray(item.images)
+      }
+    }
   }
 
   function next(){
@@ -24,8 +28,9 @@ function Carousel(props){
   
   useEffect(()=>{
     setCurrent(0)
-  },[props.tileClicked])
-
+    getImageArray()
+  },[props.tileId])
+  
   return(
     <div className="carousel">
 
@@ -38,23 +43,13 @@ function Carousel(props){
 
       <ul className="carousel-ul">
           {
-            projectsJSON.filter( item => {
-              let projectId;
-              if(props.tileId === item.id){
-                projectId = item.id;
-                testFunction(item.images.length)
-              }
-              return projectId
-            })
-            .map(project =>
-              project.images.map( (item,index) => {
+              imageArray.map( (item,index) => {
                 return (
                   <li key={index} className={index === current? " slide active-slide" : "slide"}>
                     {index === current? <img className="slide-img" src={item} alt=""/>: null}
                   </li>
                 )
               })
-            )
           }
       </ul>
 

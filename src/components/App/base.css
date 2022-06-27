@@ -19,6 +19,7 @@ body{
     margin: 0;
     font-family: var(--text-font);
     color: var(--text-color);
+    /* overflow: hidden; */
 }
 html {
 	scroll-behavior: smooth;

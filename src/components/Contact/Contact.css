@@ -1,5 +1,6 @@
 #Contact{
     padding: 2rem 0;
+    position: relative;
 }
 
 .contact-statement{
@@ -24,6 +25,8 @@
 }
 .contact-input{
     border: solid .5px var(--text-color);
+    font-family: var(--text-font);
+    color: var(--text-color);
 }
 
 .contact-form-label{

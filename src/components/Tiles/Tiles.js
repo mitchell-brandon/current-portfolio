@@ -21,10 +21,13 @@ function Tiles(props){
             return returnItem
           })
           .map(project =>
+             
             <div className="project-tile" key={project.id}>
               <h1 className="tile-title"> {project.name}</h1>
-              <div className="tile-thumbnail-wrapper"> 
-                <img className="tile-thumbnail" id={project.id}onClick={props.handleClick} src={project.thumbnail} alt={project.name}/>
+              <div className="tile-thumbnail-wrapper">
+                <a href="#Projects">
+                  <img className="tile-thumbnail" id={project.id}onClick={props.handleClick} src={project.thumbnail} alt={project.name}/>
+                </a> 
                 <div className="project-link-container">
                   <p className="project-link-wrapper">
                     <a className="project-link" target="_blank" rel="noopener noreferrer" href={project.link}>{project.link? project.name: ""}</a>

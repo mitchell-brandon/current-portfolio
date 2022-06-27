@@ -48,7 +48,7 @@
 .project-link{
     margin: 0;
     font-size: 16px;
-    font-weight: 200;
+    font-weight: 300;
     text-decoration: underline;
     text-decoration-color: var(--text-color);
     text-decoration-thickness: .5px;
@@ -58,7 +58,7 @@
 .project-type {
     display: block;
     font-size: 16px;
-    font-weight: 200;
+    font-weight: 300;
     margin: 0;
 }
 

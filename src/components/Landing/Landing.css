@@ -66,5 +66,5 @@
 .landing-link{
     text-decoration: none;
     color: var(--text-color);
-    font-size: clamp(14px, 2vw, 16px);
+    font-size: clamp(14px, 2vw, 20px);
 }

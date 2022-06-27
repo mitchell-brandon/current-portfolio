@@ -1,12 +1,13 @@
 .carousel{
     position: relative;
-    width: clamp(300px, 75vw, 700px);
+    width: clamp(300px, 75vw, 650px);
     height: initial;
     margin: 0 auto;
     padding: 0;
     justify-content: center;
     align-items: center;
 }
+
 .prev{
     left: -1rem;
 }
@@ -38,15 +39,14 @@
 }
 .slide{
     opacity:0;
-    transition-duration: 1s ease;
+    transition: .5s ease;
     margin: 0 auto;
 }
 .active-slide{
     opacity: 1;
-    transition-duration: 1s ease;
   }
 .slide-img{
-    width: clamp(300px, 75vw, 700px);
+    width: clamp(300px, 75vw, 650px);
     margin: 0 auto;
     padding: 0;
     border: 0.5px solid #4F524E;

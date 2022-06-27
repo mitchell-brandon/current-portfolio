@@ -9,9 +9,17 @@ function TileOverlay(props){
 
   return(
     <div id="TileOverlay" className={`${props.tileClicked? "": "display-none"}`}>
-      <div className="overlay-x-wrapper">
-        <FontAwesomeIcon className="overlay-x" onClick={props.handleClick} icon={faXmark} />
-      </div>
+      <FontAwesomeIcon className="overlay-x" onClick={props.handleClick} icon={faXmark} />
+      {
+        projectsJSON.filter( item =>{
+          if(props.tileId === item.id){
+            return item.name
+          }
+        })
+        .map( project =>
+          <h1 className="overlay-title"> {project.name} </h1>
+        )
+      }
 
       <Carousel
       // props coming from projects

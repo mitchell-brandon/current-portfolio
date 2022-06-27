@@ -1,7 +1,7 @@
 import "./Projects.css";
 import Tiles from "../Tiles/Tiles.js";
 import TileOverlay from "../TileOverlay/TileOverlay";
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 function Projects() {
  const[selectedValue, setSelectedValue] = useState("all")
@@ -18,6 +18,13 @@ function Projects() {
     setSelectedValue(optionValue)
   }
 
+  useEffect(()=>{
+    if(tileClicked){
+      document.body.style.overflow = "hidden";
+    } else{
+      document.body.style.overflow = "auto";
+    }
+  },[tileClicked])
   return(
     <div id="Projects">
       <h1 className="projects-statement"> Explore my projects!</h1>
