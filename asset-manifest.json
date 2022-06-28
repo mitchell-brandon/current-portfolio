@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/mitchell-roy/static/css/main.2ed1f8c8.css",
+    "main.js": "/mitchell-roy/static/js/main.be575946.js",
+    "static/media/about_img2.png": "/mitchell-roy/static/media/about_img2.360fc7d2eeceab2b3a2f.png",
+    "static/media/base_image.png": "/mitchell-roy/static/media/base_image.e774df0ed00e2845d14d.png",
+    "index.html": "/mitchell-roy/index.html",
+    "main.2ed1f8c8.css.map": "/mitchell-roy/static/css/main.2ed1f8c8.css.map",
+    "main.be575946.js.map": "/mitchell-roy/static/js/main.be575946.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2ed1f8c8.css",
+    "static/js/main.be575946.js"
+  ]
+}
