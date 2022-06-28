@@ -1,4 +1,5 @@
 import "./PageNotFound.css";
+import { Link } from "react-router-dom";
 
 function PageNotFound(){
 	return(
@@ -7,10 +8,10 @@ function PageNotFound(){
 			<h1 className="four">404</h1>
 			<p className="four-action"> 
 				No worries :&#41; try headinng back to 
-				<a href="#Landing" className="four-link">
+				<Link to="/"className="four-link">
 					<span className="mitchell">Mitchell</span>
 					<span className="roy">Roy</span>
-				</a>
+				</Link>
 			</p>
 		</div>
 	)

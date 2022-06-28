@@ -28,6 +28,8 @@ function Carousel(props){
     }
     setCurrent(0)
   },[props.tileId])
+
+  // console.log(imageArray)
   
   return(
     <div className="carousel">

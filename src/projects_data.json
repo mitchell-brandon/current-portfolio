@@ -6,17 +6,17 @@
             "link": null,
             "thumbnail": "../assets/bright_spaces/landing.png",
             "images":[
-                "../assets/bright_spaces/landing.png",
-                "./assets/bright_spaces/about.png",
-                "./assets/bright_spaces/private_service.png",
-                "./assets/bright_spaces/commercial_service.png",
-                "./assets/bright_spaces/contact.png",
-                "./assets/bright_spaces/faq.png",
-                "./assets/bright_spaces/overview.png",
-                "./assets/bright_spaces/residential_overview.png",
-                "./assets/bright_spaces/commercial_overview.png",
-                "./assets/bright_spaces/res_book_overview.png",
-                "./assets/bright_spaces/reciept_overview.png"
+                "../asset/bright_spaces/landing.png",
+                "../assets/bright_spaces/about.png",
+                "../assets/bright_spaces/private_service.png",
+                "../assets/bright_spaces/commercial_service.png",
+                "../assets/bright_spaces/contact.png",
+                "../assets/bright_spaces/faq.png",
+                "../assets/bright_spaces/overview.png",
+                "../assets/bright_spaces/residential_overview.png",
+                "../assets/bright_spaces/commercial_overview.png",
+                "../assets/bright_spaces/res_book_overview.png",
+                "../assets/bright_spaces/reciept_overview.png"
             ],
             "description": "Bright Spaces Cleaning Solutions is an LA based company specializing in private and commercial cleaning. I designed the application in Figma, and am currently building it with React, MongoDB, Express, Node, CSS, and Bootstrap. I’ve thus far managed my clients expectations, effectively communicated ideas, and have maintained a wonderful and productive relationship. I hope you enjoy the product design!"
         },
@@ -27,13 +27,13 @@
             "link": null,
             "thumbnail": "../assets/fat_food/landing.png",
             "images":[
-                "./assets/fat_food/landing.png",
-                "./assets/fat_food/about.png",
-                "./assets/fat_food/events_menu.png",
-                "./assets/fat_food/events.png",
-                "./assets/fat_food/carousel.png",
-                "./assets/fat_food/RSVP.png",
-                "./assets/fat_food/menu.png"
+                "../assets/fat_food/landing.png",
+                "../assets/fat_food/about.png",
+                "../assets/fat_food/events_menu.png",
+                "../assets/fat_food/events.png",
+                "../assets/fat_food/carousel.png",
+                "../assets/fat_food/RSVP.png",
+                "../assets/fat_food/menu.png"
             ],
             "description": "Welcome to the Fat Ass Food Tour! This fun Orange County meetup group loves to eat food and have drinks– they call themselves, Fatties. I was hired to design an application where Fatties can login and view upcoming events, view old events, rsvp, and message the organizer. I hope you enjoy my fun food and drink driven design! The build will be coming soon. We’ve decided to proceed with the MERN stack."
         },
@@ -44,13 +44,13 @@
             "link": "https://solar-system-react.herokuapp.com/",
             "thumbnail": "../assets/solarsystem/masses.png",
             "images":[
-                "./assets/solarsystem/masses.png",
-                "./assets/solarsystem/diameters.png",
-                "./assets/solarsystem/distances.png",
-                "./assets/solarsystem/temperatures.png",
-                "./assets/solarsystem/days.png",
-                "./assets/solarsystem/years.png",
-                "./assets/solarsystem/moons.png"
+                "../assets/solarsystem/masses.png",
+                "../assets/solarsystem/diameters.png",
+                "../assets/solarsystem/distances.png",
+                "../assets/solarsystem/temperatures.png",
+                "../assets/solarsystem/days.png",
+                "../assets/solarsystem/years.png",
+                "../assets/solarsystem/moons.png"
             ],
             "description": "SolarSystem is my favorite personal project to date. It’s an educational web app designed to visually express planetary data. I designed the project in Figma and built it with React. I overcame many challenges like how to visually express disparate values and how to create the logic for my custom graphing component. You can use my graph in your own project at “https://www.npmjs.com/package/dotchart”. Enoy!"
         },
@@ -61,13 +61,13 @@
             "link": "https://sasq-watch.herokuapp.com/",
             "thumbnail": "../assets/sasq/landing.png",
             "images":[
-                "./assets/sasq/landing.png",
-                "./assets/sasq/about.png",
-                "./assets/sasq/sightings.png",
-                "./assets/sasq/per_year.png",
-                "./assets/sasq/per_state.png",
-                "./assets/sasq/seasons.png",
-                "./assets/sasq/journal.png"
+                "../assets/sasq/landing.png",
+                "../assets/sasq/about.png",
+                "../assets/sasq/sightings.png",
+                "../assets/sasq/per_year.png",
+                "../assets/sasq/per_state.png",
+                "../assets/sasq/seasons.png",
+                "../assets/sasq/journal.png"
             ],
             "description": "SasqWatch is dedicated to the investigation of Bigfoot. The data is visually expressed and organized by sightings per year, state popularity, and by season/month. The build was executed with Python Django, Python Graphing Library, PostgreSQL, HTML, CSS, and Bootstrap. Users are able to create a free login, explore authentic Bigfoot data, bookmark favorite sightings, and maintain a custom journal. In theory, interacting with SasqWatch allows users to make predictions as to when and where communities of Bigfoot might reside if they exist. Happy exploring!"
         },
@@ -78,10 +78,10 @@
             "link": "https://codesandbox.io/s/pokedexsnippet-pn9h44",
             "thumbnail": "../assets/pokedex/home.png",
             "images":[
-                "./assets/pokedex/home.png",
-                "./assets/pokedex/idle_sort.png",
-                "./assets/pokedex/pagination.png",
-                "./assets/pokedex/query.png"
+                "../assets/pokedex/home.png",
+                "../assets/pokedex/idle_sort.png",
+                "../assets/pokedex/pagination.png",
+                "../assets/pokedex/query.png"
             ],
             "description": "This little project was designed to show employers my knowledge of asynchronous behavior, API requests, and sorting logic. The project accesses the public Pokemon API, creates an HTML table, and can be sorted by Pokemon ID, names by A-Z, or by search Query– I’ve even included custom pagination. Follow the link and check out my skills!"
         }
