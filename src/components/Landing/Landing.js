@@ -7,7 +7,7 @@ function Landing(props){
     <div id="Landing">
       <div className="landing-content-wrapper">
         <h1 className="landing-titles landing-title"> Mitchell <span>Roy</span></h1>
-        <div className="landing-underline"></div>
+        <div className="landing-underline underline"></div>
         <div className="landing-subtitle-wrapper">
           <h3 className="landing-titles">UX</h3>
           <h3 className="landing-titles">&#38;</h3>

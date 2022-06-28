@@ -13,7 +13,9 @@ function ThanksOverlay(props){
             <h1 className="thanks-title"> Thank You!</h1>
             <div className="thanks-content-wrapper">
                 <p className="thanks-message"> 
-                    Thank you for reaching out! I’ll get back to you as soon as I can.
+                    Thank you for reaching out, I'm excited to see what we can build! 
+                    <br></br>
+                    I'll respond to your message as soon as possible.
                 </p>
 
                 <p className="thanks-closing"> 

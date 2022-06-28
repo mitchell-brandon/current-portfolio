@@ -18,7 +18,7 @@
                 "./assets/bright_spaces/res_book_overview.png",
                 "./assets/bright_spaces/reciept_overview.png"
             ],
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vel pretium leo. Donec blandit orci ut venenatis bibendum. Aenean tincidunt mauris sit amet consequat laoreet. Nam id elit quis nunc lacinia facilisis. Aenean blandit elit nec augue gravida, sodales sollicitudin risus pharetra. Mauris vestibulum iaculis dictum.Duis mollis orci nec est ornare, faucibus condimentum nisi imperdiet.Aenean magna eros, posuere et leo vitae, hendrerit volutpat augue."
+            "description": "Bright Spaces Cleaning Solutions is an LA based company specializing in private and commercial cleaning. I designed the application in Figma, and am currently building it with React, MongoDB, Express, Node, CSS, and Bootstrap. I’ve thus far managed my clients expectations, effectively communicated ideas, and have maintained a wonderful and productive relationship. I hope you enjoy the product design!"
         },
         {
             "id": "2",
@@ -35,7 +35,7 @@
                 "./assets/fat_food/RSVP.png",
                 "./assets/fat_food/menu.png"
             ],
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vel pretium leo. Donec blandit orci ut venenatis bibendum. Aenean tincidunt mauris sit amet consequat laoreet. Nam id elit quis nunc lacinia facilisis. Aenean blandit elit nec augue gravida, sodales sollicitudin risus pharetra. Mauris vestibulum iaculis dictum.Duis mollis orci nec est ornare, faucibus condimentum nisi imperdiet.Aenean magna eros, posuere et leo vitae, hendrerit volutpat augue."
+            "description": "Welcome to the Fat Ass Food Tour! This fun Orange County meetup group loves to eat food and have drinks– they call themselves, Fatties. I was hired to design an application where Fatties can login and view upcoming events, view old events, rsvp, and message the organizer. I hope you enjoy my fun food and drink driven design! The build will be coming soon. We’ve decided to proceed with the MERN stack."
         },
         {
             "id": "3",
@@ -52,7 +52,7 @@
                 "./assets/solarsystem/years.png",
                 "./assets/solarsystem/moons.png"
             ],
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vel pretium leo. Donec blandit orci ut venenatis bibendum. Aenean tincidunt mauris sit amet consequat laoreet. Nam id elit quis nunc lacinia facilisis. Aenean blandit elit nec augue gravida, sodales sollicitudin risus pharetra. Mauris vestibulum iaculis dictum.Duis mollis orci nec est ornare, faucibus condimentum nisi imperdiet.Aenean magna eros, posuere et leo vitae, hendrerit volutpat augue."
+            "description": "SolarSystem is my favorite personal project to date. It’s an educational web app designed to visually express planetary data. I designed the project in Figma and built it with React. I overcame many challenges like how to visually express disparate values and how to create the logic for my custom graphing component. You can use my graph in your own project at “https://www.npmjs.com/package/dotchart”. Enoy!"
         },
         {
             "id": "4",
@@ -69,7 +69,7 @@
                 "./assets/sasq/seasons.png",
                 "./assets/sasq/journal.png"
             ],
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vel pretium leo. Donec blandit orci ut venenatis bibendum. Aenean tincidunt mauris sit amet consequat laoreet. Nam id elit quis nunc lacinia facilisis. Aenean blandit elit nec augue gravida, sodales sollicitudin risus pharetra. Mauris vestibulum iaculis dictum.Duis mollis orci nec est ornare, faucibus condimentum nisi imperdiet.Aenean magna eros, posuere et leo vitae, hendrerit volutpat augue."
+            "description": "SasqWatch is dedicated to the investigation of Bigfoot. The data is visually expressed and organized by sightings per year, state popularity, and by season/month. The build was executed with Python Django, Python Graphing Library, PostgreSQL, HTML, CSS, and Bootstrap. Users are able to create a free login, explore authentic Bigfoot data, bookmark favorite sightings, and maintain a custom journal. In theory, interacting with SasqWatch allows users to make predictions as to when and where communities of Bigfoot might reside if they exist. Happy exploring!"
         },
         {
             "id": "5",
@@ -83,6 +83,6 @@
                 "./assets/pokedex/pagination.png",
                 "./assets/pokedex/query.png"
             ],
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vel pretium leo. Donec blandit orci ut venenatis bibendum. Aenean tincidunt mauris sit amet consequat laoreet. Nam id elit quis nunc lacinia facilisis. Aenean blandit elit nec augue gravida, sodales sollicitudin risus pharetra. Mauris vestibulum iaculis dictum.Duis mollis orci nec est ornare, faucibus condimentum nisi imperdiet.Aenean magna eros, posuere et leo vitae, hendrerit volutpat augue."
+            "description": "This little project was designed to show employers my knowledge of asynchronous behavior, API requests, and sorting logic. The project accesses the public Pokemon API, creates an HTML table, and can be sorted by Pokemon ID, names by A-Z, or by search Query– I’ve even included custom pagination. Follow the link and check out my skills!"
         }
     ]

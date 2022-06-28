@@ -25,9 +25,10 @@ function Projects() {
       document.body.style.overflow = "auto";
     }
   },[tileClicked])
+
   return(
     <div id="Projects">
-      <h1 className="projects-statement"> Explore my projects!</h1>
+      <h1 className="projects-statement statement"> Explore my projects!</h1>
       <div className="underline-select-wrapper">
 
         {/* selection dropdown */}
@@ -40,7 +41,7 @@ function Projects() {
           </select>
         </label>
         
-        <div className="projects-underline"></div>
+        <div className="projects-underline underline"></div>
       </div>
 
       <Tiles 

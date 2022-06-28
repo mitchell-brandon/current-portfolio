@@ -12,12 +12,12 @@
     overflow: scroll;
     padding-top:6rem;
 }
+
+/* the class, overlay-x is in base.css becasue its reused */
+
 .thanks-title{
     margin: auto;
-    width: fit-content;
     font-size: clamp(24px, 3.8vw, 36px);
-    color: var(--header-color);
-    font-family: var(--header-font);
     font-weight: 300;
 }
 .thanks-content-wrapper{
@@ -26,10 +26,9 @@
 }
 .thanks-message{
     margin: 6rem auto;
-    text-align: center;
+    text-align: justify;
 }
 .thanks-closing{
-    /* text-align: justify; */
     margin-bottom: 0;
 }
 .thanks-mitchell{
@@ -43,16 +42,9 @@
 @media only screen and (min-width: 600px) {
     
     #ThanksOverlay{
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
         width: clamp(300px, 75vw, 700px);
-        max-height: 400px;
-        background: rgba(255, 255, 255, 0.95);
-        border: 0.5px solid #4F524E;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        padding: 3rem 4rem 1rem 4rem;
+        max-height: 455px;
+        padding: 4rem 4rem 1rem 4rem;
     }
 
     .overlay-x{

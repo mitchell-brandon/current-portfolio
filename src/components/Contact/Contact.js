@@ -1,7 +1,8 @@
 // https://medium.com/geekculture/how-to-send-emails-from-a-form-in-react-emailjs-6cdd21bb4190 
 // thats a resource for using emailJS
 import "./Contact.css";
-import React, {useState, useEffect} from 'react';
+import React, {useState} from 'react';
+import ReCAPTCHA from "react-google-recaptcha";
 import ThanksOverlay from "../ThanksOverlay/ThanksOverlay";
 
 import { send } from 'emailjs-com';
@@ -48,18 +49,23 @@ function Contact(){
     console.log(toSend)
   };
 
+  function onChangeRecaptcha(value) {
+    console.log("Captcha value:", value);
+  }
+
 
   return(
     <div id="Contact">
-      <h1 className="contact-statement"> Wanna team up? </h1>
+      <h1 className="contact-statement statement"> Wanna team up? </h1>
 
       <form method="post" className="contact-form" onSubmit={onSubmit}>
         <div className="contact-form-content">
 
           <div className="contact-input-wrapper fullname-wrapper">
-            <label className="contact-form-label" htmlFor="fullname"> Full Name</label>
+            <label className="contact-form-label form-font" htmlFor="fullname"> Full Name</label>
             <input
-              className="contact-input" 
+              required
+              className="contact-input form-font" 
               type='text'
               name='from_name'
               placeholder='Full Name'
@@ -69,9 +75,10 @@ function Contact(){
           </div>
 
           <div className="contact-input-wrapper email-wrapper">
-            <label className="contact-form-label" htmlFor="email"> Email</label>
-            <input 
-              className="contact-input"  
+            <label className="contact-form-label form-font" htmlFor="email"> Email</label>
+            <input
+              required
+              className="contact-input form-font"  
               type="email" 
               name="email_address"
               value={toSend.email_address} 
@@ -81,9 +88,10 @@ function Contact(){
           </div>
         </div>
         <div className="contact-input-wrapper">
-          <label className="contact-form-label" htmlFor="contact-message"> Message</label>
+          <label className="contact-form-label form-font" htmlFor="contact-message"> Message</label>
           <textarea
-            className="contact-input contact-textarea" 
+            required
+            className="contact-input contact-textarea form-font" 
             type='text'
             name='message'
             placeholder='Your message'
@@ -92,9 +100,14 @@ function Contact(){
           />
         </div>
 
-        
+        <div className="captcha">
+          <ReCAPTCHA
+            sitekey="6LfRD6YgAAAAANUq34__4QyBwasqp6ATWm0OysAv"
+            onChange={onChangeRecaptcha}
+          />
+        </div>
 
-        <button type="submit" className="contact-submit-button">Send</button>
+        <button type="submit" className="contact-submit-button form-font">Send</button>
       </form>
 
     <ThanksOverlay

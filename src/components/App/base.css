@@ -19,8 +19,49 @@ body{
     margin: 0;
     font-family: var(--text-font);
     color: var(--text-color);
-    /* overflow: hidden; */
 }
 html {
 	scroll-behavior: smooth;
+}
+
+.display-none{
+    display: none;
+}
+
+h1, h2, h3{
+    font-family: var(--header-font);
+    color: var(--header-color);
+    width: fit-content;
+    font-weight: 200;
+}
+
+a{
+    color: var(--text-color);
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+
+.underline{
+    background: var(--underline);
+    height:2px;
+}
+.statement{
+    font-weight: 200;
+    width: fit-content;
+}
+.overlay-x{
+    margin:0 !important;   
+    position: absolute;
+    font-family: var(--header-font);
+    color: var(--text-color);
+    font-weight: 200px;
+    font-size: clamp(36px, 3.8vw, 60px);    
+    cursor: pointer;
+    right:3%;
+    top:3%;
+}
+.overlay-x:hover{
+    color: var(--header-color);
 }

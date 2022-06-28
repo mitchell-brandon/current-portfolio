@@ -6,16 +6,12 @@
     margin: 0 auto;
     
 }
-
-.about-statement-mobile{
-    font-family: var(--header-font);
-    color: var(--header-color);
-    font-weight: 200;
+.about-statement-mobile{ 
     font-size: clamp(24px, 3.8vw, 36px);
-    width: fit-content;
     margin: 0 auto 32px auto;
 }
 .about-statement-desktop{
+    margin: 0 auto 100px auto;
     display: none;
     font-size: 36px;
 }
@@ -52,20 +48,17 @@
 }
 .about-underline{
     width: clamp(300px, 55vw, 600px);
-    height:2px;
-    background: var(--underline);
     margin: 0 auto 16px auto;
 }
 
 .about-paragraph{
     width: clamp(275px, 55vw, 600px);
     text-align: justify;
-    color: var(--text-color);
     margin: auto;
 }
 
-/* About mediaQueries */
 
+/* About mediaQueries */
 @media only screen and (min-width: 980px) {
     #About{
         padding: 9rem 3rem;
@@ -83,11 +76,6 @@
 
     .about-statement-desktop{
         display: revert;
-        font-family: var(--header-font);
-        color: var(--header-color);
-        font-weight: 200;
-        width: fit-content;
-        margin: 0 auto 100px auto;
     }
     .about-img-wrapper{
         margin: 0;

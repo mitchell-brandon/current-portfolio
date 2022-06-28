@@ -12,9 +12,11 @@ function TileOverlay(props){
       <FontAwesomeIcon className="overlay-x" onClick={props.handleClick} icon={faXmark} />
       {
         projectsJSON.filter( item =>{
+          let itemName;
           if(props.tileId === item.id){
-            return item.name
+            itemName = item.name
           }
+          return itemName
         })
         .map( project =>
           <h1 className="overlay-title"> {project.name} </h1>

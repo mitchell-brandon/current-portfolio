@@ -50,6 +50,9 @@
     margin: 0 auto;
     padding: 0;
     border: 0.5px solid #4F524E;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 @media only screen and (min-width: 500px) {
@@ -66,4 +69,10 @@
     .next{
         right: -2.5rem;
     }
+}
+
+.base_image{
+    width: clamp(300px, 75vw, 650px);
+    margin: 0 auto;
+    padding: 0;
 }
