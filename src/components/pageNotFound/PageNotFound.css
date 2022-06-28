@@ -1,0 +1,36 @@
+#PageNotFound{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-content: center;
+}
+
+.four-statement{
+    font-size: 72px;
+    margin: auto;
+}
+.four{
+    font-size:96px;
+    margin: auto;
+}
+
+.four-action{
+    font-size: 20px;
+    margin: auto;
+    width: fit-content;
+}
+
+.four-link{
+    margin: 0 5px;
+    font-size: 24px;
+    text-decoration: underline;
+    text-decoration-color: solid 2px var(--text-color);
+}
+
+.mitchell{
+    color: var(--purple);
+}
+
+.roy{
+    color: var(--red);
+}
