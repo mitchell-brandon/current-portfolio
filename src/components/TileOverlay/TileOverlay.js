@@ -19,7 +19,7 @@ function TileOverlay(props){
           return itemName
         })
         .map( project =>
-          <h1 className="overlay-title"> {project.name} </h1>
+          <h1 key={project.name} className="overlay-title"> {project.name} </h1>
         )
       }
 

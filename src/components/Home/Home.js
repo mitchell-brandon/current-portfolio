@@ -27,6 +27,7 @@ function Home() {
 
 
   return (
+    
       <div className="app">
         <div ref={landingPage}>
           <Landing landingVisible={landingVisible}/>
@@ -35,7 +36,7 @@ function Home() {
         <Projects/>
         <Contact/>
         <Footer/>
-    </div>
+      </div>
   );
 }
 
