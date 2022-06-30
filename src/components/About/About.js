@@ -34,7 +34,7 @@ function About(){
           <div className="about-underline underline"> </div>
           <p className="about-paragraph">
           Hey I’m Mitch, and I’m a full stack web developer. I have over three years of experience in designing products and building applications. 
-          I love what I do! I’m an incredibly resilient individual with a wanton amount of discipline and passion. I have a genuine sense of empathy, 
+          I love what I do! I’m an incredibly resilient individual with an immense amount of discipline and passion. I have a genuine sense of empathy, 
           encouragement, and inclusivity–in most of my previous lines of work I’ve often fulfilled roles in management and leadership. When I’m not 
           programming or designing the next project, I like to fish, camp, and learn new technologies. I’m dedicated to providing clean code, 
           beautiful designs, and excellent communication. 
